@@ -20,7 +20,5 @@
 (define (good-enough? guess x)
   (< (abs (- guess (improve guess x))) 0.001))
 
-(check >= (sqrt 9) 3)
-(check <= (sqrt 9) 3.001)
-(check >= (sqrt 1000) 31.6)
-(check <= (sqrt 1000) 31.623)
+(check-equal? (sqrt 9) 3.00009155413138)
+(check-equal? (sqrt 1000) 31.622782450701045)
