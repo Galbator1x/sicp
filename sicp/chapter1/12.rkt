@@ -1,6 +1,6 @@
-#lang racket/base
+#lang sicp
 
-(require rackunit)
+(#%require rackunit)
 
 (define (pascal-triangle row col)
   (if (or (= col 1) (= row col))

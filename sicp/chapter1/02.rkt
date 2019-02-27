@@ -1,6 +1,6 @@
-#lang racket/base
+#lang sicp
 
-(require rackunit)
+(#%require rackunit)
 
 (define solution
   (/ (+ 5

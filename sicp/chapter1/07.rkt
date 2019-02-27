@@ -1,6 +1,6 @@
-#lang racket/base
+#lang sicp
 
-(require rackunit)
+(#%require rackunit)
 
 (define (sqrt x)
   (sqrt-iter 1.0 x))

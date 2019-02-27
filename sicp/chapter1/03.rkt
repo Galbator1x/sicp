@@ -1,6 +1,6 @@
-#lang racket/base
+#lang sicp
 
-(require rackunit)
+(#%require rackunit)
 
 (define (sum-of-squares-max-two-numbers a b c)
   (cond ((and (> a b) (> c b)) (sum-of-squares a c))
